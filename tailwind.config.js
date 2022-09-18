@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  presets: [require('./tailwind.achan.preset.config')],
+  presets: [require('@alexmchan/preset-tailwind')],
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
@@ -9,7 +9,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    '@tailwindcss/typography',
     // require('@tailwindcss/forms')({
     //   strategy: 'base', // only generate global styles
     //   strategy: 'class', // only generate classes

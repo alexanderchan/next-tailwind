@@ -15,11 +15,14 @@
     "tailwind-merge": "^1.6.0"
   },
   "devDependencies": {
+    "@alexmchan/preset-tailwind": "^1.0.1",
     "@types/node": "18.7.18",
     "@types/react": "18.0.20",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.11",
     "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
     "tailwindcss": "^3.1.8",
     "typescript": "4.8.3"
   }
