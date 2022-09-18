@@ -1,6 +1,9 @@
 {
   "name": "@alexmchan/preset-next-tailwind",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
