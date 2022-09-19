@@ -1,6 +1,5 @@
 {
   "name": "@alexmchan/preset-next-tailwind",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -38,5 +37,6 @@
     "type": "git",
     "url": "git+https://github.com/alexanderchan/preset-next-tailwind.git"
   },
-  "version": "0.0.2"
+  "version": "0.0.2",
+  "packageManager": "yarn@3.2.3"
 }
