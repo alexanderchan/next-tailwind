@@ -1,14 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   presets: [require('@alexmchan/preset-tailwind')],
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {},
   },
-  plugins: [
-    // require('@tailwindcss/forms')({
-    //   strategy: 'base', // only generate global styles
-    //   strategy: 'class', // only generate classes
-    // }),
-  ],
+
+  plugins: [require('@tailwindcss/typography')],
 }
