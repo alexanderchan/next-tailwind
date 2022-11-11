@@ -44,3 +44,5 @@ next-env.d.ts
 !.yarn/versions
 .pnp.*
 .yarn/install-state.gz
+
+.docgen/
